@@ -428,7 +428,7 @@ const experiences = [
     
     title: "Full-Stack Developer",
     company_name: "Cognifyz",
-    icon: shopify, // Replace with the appropriate icon
+    icon: "https://cognifyz.com/wp-content/uploads/2023/11/cognifyz-1.png", // Replace with the appropriate icon
     iconBg: "#383E56",
     date: "Summer 2024",
     points: [
