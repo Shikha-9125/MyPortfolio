@@ -134,6 +134,19 @@ const projects = [
     source_code_link: "https://github.com/Shikha-9125/RealtimeIDE",
   },
   {
+    "name": "FlightMate",
+    "description": 
+      "Developed a system that finds the shortest possible flight route between two airports, even if no direct flight is available. Utilizes graph algorithms to determine the most efficient paths, minimizing stops and travel time.",
+    "tags": [
+      { "name": "graph-algorithms", "color": "blue-text-gradient" },
+      { "name": "route-optimization", "color": "green-text-gradient" },
+      { "name": "aviation", "color": "yellow-text-gradient" },
+    ],
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/050/966/684/small/miniature-airplane-on-a-city-map-showing-the-destination-point-with-a-red-pin-photo.jpg",
+    "source_code_link": "https://flight-mate.vercel.app/"
+}
+,
+  {
     name: "Job Portal",
     description:
       "Developed CareerBloom, a full-stack job portal designed to seamlessly connect job seekers and recruiters. The motivation behind this project was to bridge the gap between talent and opportunity.",
