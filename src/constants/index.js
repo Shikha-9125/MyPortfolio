@@ -197,6 +197,18 @@ const projects = [
     image: "https://png.pngtree.com/thumb_back/fw800/background/20230120/pngtree-bookstore-bookshelf-display-photography-image_1534440.jpg",
     source_code_link: "https://github.com/Shikha-9125/bookstoreApp",
   },
+  {
+    name: "ChatBuddy-AI",
+    description:
+      "A simple, beautiful AI chatbot powered by Google Gemini",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwind", color: "green-text-gradient" },
+      { name: "Gemini API", color: "pink-text-gradient" },
+    ],
+    image: "https://www.greenbot.com/wp-content/uploads/2024/11/AI-Chatbot.png",
+    source_code_link: "https://chatbuddy-ai-wjxw.onrender.com/",
+  },
 ];
 
 export { services, technologies, experiences, projects };
