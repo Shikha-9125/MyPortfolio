@@ -132,7 +132,7 @@ const Hero = () => {
           {/* Resume Link Button */}
           <div className="mt-5 flex gap-4">
             <a
-              href="https://drive.google.com/file/d/1MxVewlpmi18-bv5TIu4YJGh-3XU-yivN/view?usp=sharing"
+              href="https://drive.google.com/file/d/130uVFPdvQxZC3Ucj_YPGJTNZaimbM5gr/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#915EFF] text-white font-semibold py-2 px-5 rounded-lg shadow-lg hover:bg-[#7a4fe0] transition-all duration-300"

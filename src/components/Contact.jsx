@@ -35,10 +35,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_sy8dwl2',
-        'template_9r73fxk',
-        //import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        //import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID || 'service_sy8dwl2',
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID || 'template_9r73fxk',
         {
           from_name: form.name,
           to_name: "JavaScript Mastery",
@@ -46,8 +44,7 @@ const Contact = () => {
           to_email: "shikha912513@gmail.com",
           message: form.message,
         },
-        'R_7Y2TRToN8q7ey0G'
-        //import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY || 'R_7Y2TRToN8q7ey0G'
       )
       .then(
         () => {
